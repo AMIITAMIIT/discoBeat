@@ -1,0 +1,146 @@
+body{
+    background-image: url("../images/img5.jpg");
+    background-size: cover;
+}
+
+.wrapper{
+    width: 400px;
+    height: 560px;
+    color: #000;
+    top: 48%;
+    left: 50%;
+    padding: 50px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    box-shadow: 8px 8px 50px #000;
+ 
+}
+
+.wrapper input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.wrapper input[type=text], .wrapper input[type=password]{
+    border: none;
+    border-bottom:  1px solid #ddd;
+    background: #ffffff;;
+    outline: none;
+    height: 30px;
+    font-size: 14px;
+    opacity:1;
+    color: thistle;
+}
+.wrapper input[type=submit]{
+    border:2px ;
+    border-radius: 25px;
+    background: rgb(192, 33, 28);
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    opacity:1;
+    color: thistle;  
+    font-weight: bolder; 
+}
+.wrapper input[type=submit]:hover{
+    cursor: pointer;
+}
+.wrapper a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#ffffff;
+    opacity: 0.8;
+    font-weight: bolder;
+}
+.wrapper a:hover{
+    opacity: 1;
+    font-size: 102%;
+    border-radius: 30px;
+    padding: 5px;
+}
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+.bottom-text a{
+    float: left;
+    background-color:#ffffff;
+    margin-top: -4%;
+    padding: 4px;
+    border-radius: 5px;
+    color: black;
+    margin-left: 35%;
+
+}
+.socials{
+    margin-top: -1%;
+    text-align: center;
+}
+.socials a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.socials a:nth-child(1){
+    color: #ffffff;
+background-color: #415bf1;
+}
+.socials a:nth-child(2){
+    color: #ffffff;
+    background-color: rgb(74, 151, 252);
+
+}
+.socials a:nth-child(3){
+    color: #ffffff;
+    background-color: rgb(238, 29, 71);
+
+}
+.socials a:nth-child(4){
+    color: #ffffff;
+    background-color: rgb(74, 151, 252);
+
+}
+.socials a i{
+    padding: 8px 0;
+}
+.para{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.tree{
+    background-color: #bce6f3;
+    padding: 2px;
+}
+.sign {
+    border: none;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    background: rgb(10, 64, 241);
+    outline: none;
+    height: 25px;
+    width: 342px;
+    font-size: 16px;
+    opacity:1;
+    color:#ffffff;  
+    font-weight: bolder; 
+    margin-bottom: 32px;
+    font-size: 105%;
+}
+.sign a{
+    font-size: 110%;
+}
+.valid{
+    text-align: center;
+    color: rgb(235, 47, 47);
+    background-color: seashell;
+    width: 210px;
+    padding: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 20%;
+}
